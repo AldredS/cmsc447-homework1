@@ -1,0 +1,27 @@
+.menu {
+    background: #f95e3f;
+    color: blue;
+        li {
+            background: #f95e3f;
+
+            &:hover {
+                background: #e1583d;
+            }
+        }
+}
+head {
+    h1 {
+        color: black;
+        font-family: monospace;
+      }
+}
+
+body {
+  p {
+    color: black;
+  }
+}
+
+footer {
+    background-color: #f95e3f;
+}

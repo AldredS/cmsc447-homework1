@@ -226,7 +226,6 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
   background: #fefefe;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
@@ -346,6 +345,7 @@ textarea {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+          
 }
 
 .cell {
@@ -362,6 +362,7 @@ textarea {
   -webkit-flex: 1 1 0;
       -ms-flex: 1 1 0px;
           flex: 1 1 0;
+  padding: 2%;
 }
 .cell.shrink {
   -webkit-box-flex: 0;
@@ -4690,7 +4691,7 @@ select:not([multiple]) {
   text-align: center;
 }
 .menu .is-active > a {
-  background: #1779ba;
+  background: #e1583d;
   color: #fefefe;
 }
 .menu .active > a {
