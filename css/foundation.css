@@ -4691,7 +4691,7 @@ select:not([multiple]) {
   text-align: center;
 }
 .menu .is-active > a {
-  background: #e1583d;
+  background: #1779ba;
   color: #fefefe;
 }
 .menu .active > a {

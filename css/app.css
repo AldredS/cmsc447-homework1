@@ -1,27 +1,38 @@
 .menu {
-    background: #f95e3f;
-    color: blue;
-        li {
-            background: #f95e3f;
-
-            &:hover {
-                background: #e1583d;
-            }
-        }
-}
-head {
-    h1 {
-        color: black;
-        font-family: monospace;
-      }
+    background: #455d7a;
 }
 
-body {
-  p {
-    color: black;
+.menu .is-active > a {
+  
+  background: #e1583d;
+}
+
+.menu > li > a { 
+  color: #e3e3e3;
+  &:hover {
+      background: #dc593f ;
   }
 }
 
-footer {
-    background-color: #f95e3f;
+
+h1 {
+  color: #e3e3e3;
+  font-family: monospace;
+}
+
+
+h3 {
+  color: #e3e3e3;
+  font-family: monospace;
+}
+
+body {
+  color: #e3e3e3;
+  background-color: #233142;
+  font-family: monospace;
+}
+
+.image {
+  border-style: solid;
+  border-color: #455d7a;
 }
